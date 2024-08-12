@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Border to form using fieldset -->
+    <fieldset> 
+        <!-- label/ heading to the form -->
+        <legend>Login Form</legend>
+    <form action="">
+        <input type="email" required placeholder="Enter Email">
+        <span style="color: red;">*</span><br><br>
+        <!-- Give warning for sorng password using minlength= -->
+        <input type="password"required placeholder="Enter Password" minlength="8">
+        <span style="color: red;">*</span><br><br>
+        <input type="tel" required value="+91" placeholder="Enter Mobile Number" minlength="13" maxlength="13">
+        <span style="color: red;">*</span><br><br>
+        <input type="text" required placeholder="Enter Address">
+        <span style="color: red;">*</span><br><br>
+        <input type="text" placeholder="Enter College Name"><br><br>
+
+        <!-- to keep cursor on that field whenever we visit the form-->
+        <input type="text" placeholder="Enter Addhar Number" autofocus maxlength="12">
+        <span style="color: red;">*</span><br><br>
+        <!-- size will be used for giving length of fieldss -->
+        <input type="text" placeholder="Enter Pancard Number" size="7" maxlength="7">
+        <span style="color: red;">*</span><br><br>
+        <input type="text" value="I am Physically Disabled" readonly><br><br>
+        <input type="text" value="I am 18+" disabled><br><br>
+        <textarea name="" id="" cols="20" rows="5"></textarea>
+
+        <button>Submit</button>
+    </form>
+    </fieldset>
+</body>
+</html>
