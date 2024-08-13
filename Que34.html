@@ -1,0 +1,27 @@
+<!-- 34. *Use the formaction Attribute on Submit Buttons:*
+    - Create a form with two submit buttons, each with a different formaction attribute. Discuss how formaction can be used to send form data to different URLs based on user input. -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form id="multiActionForm" >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <!-- Submit button with different formaction -->
+            <input type="submit" value="Submit to URL A" formaction="https://example.com/endpointA">
+    
+            <!-- Submit button with different formaction -->
+            <input type="submit" value="Submit to URL B" formaction="https://example.com/endpointB">
+    
+        </form>
+    </body>
+    </html>
