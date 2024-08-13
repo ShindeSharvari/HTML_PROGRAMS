@@ -1,0 +1,26 @@
+<!-- 28. *Create a Picture Element for Responsive Images:*
+    - Use the <picture> element to provide different image sources for different screen sizes or resolutions. Discuss how this technique helps with responsive design (conceptual, without CSS). -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <picture>
+        <!-- Image for very high resolution screens (e.g., Retina displays) -->
+        <source srcset="../assets/disney.jpeg" media="(min-width: 1200px)" />
+
+        <!-- Image for large screens -->
+        <source srcset="../assets/panda.webp"media="(min-width: 800px)" />
+
+        <!-- Image for medium screens -->
+        <source srcset="../assets/wallpaper.jpg" media="(min-width: 400px)" />
+
+        <!-- Default image for smaller screens or unsupported media queries -->
+        <img src="../assets/panda.webp" alt="Responsive Image">
+    </picture>
+</body>
+</html>        
