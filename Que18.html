@@ -1,0 +1,25 @@
+<!-- 18. *Include a Hidden Input for Form Data:*
+    - Add a hidden input field to your form using <input type="hidden">. Set a value for the hidden input that will be submitted with the form but not visible to the user. Discuss when and why hidden inputs might be used. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="">
+
+        <!-- Visible Input Field -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
+
+        <!-- Hidden Input Field -->
+        <input type="hidden" name="form_type" value="registration">
+
+        <input type="submit" value="Register">
+
+    </form>
+</body>
+</html>
