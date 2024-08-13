@@ -1,0 +1,35 @@
+<!-- 12. *Create a Form with Validation Attributes:*
+    - Construct a form that includes fields with HTML5 validation attributes like required, pattern, maxlength, and minlength. Test the form’s behavior in the browser and describe how validation is enforced without JavaScript. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input type="email" required placeholder="Enter Email">
+        <span style="color: red;">*</span><br><br>
+        <!-- Give warning for strong password using minlength= -->
+        <input type="password"required placeholder="Enter Password" minlength="8">
+        <span style="color: red;">*</span><br><br>
+        <input type="tel" required pattern="^\d{10}$" placeholder="Enter Mobile Number" minlength="10" maxlength="10">
+        <span style="color: red;">*</span><br><br>
+        <input type="text" required placeholder="Enter Address">
+        <span style="color: red;">*</span><br><br>
+        <input type="text" placeholder="Enter College Name"><br><br>
+
+        <!-- to keep cursor on that field whenever we visit the form-->
+        <input type="text" placeholder="Enter Addhar Number" autofocus maxlength="12">
+        <span style="color: red;">*</span><br><br>
+        <!-- size will be used for giving length of fieldss -->
+        <input type="text" placeholder="Enter Pancard Number" size="7" maxlength="7">
+        <span style="color: red;">*</span><br><br>
+        <textarea name="" id="" cols="20" rows="5"></textarea>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>

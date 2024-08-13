@@ -1,0 +1,24 @@
+<!-- 14. *Create a Form with Input Constraints:*
+    - Build a form that includes constrained input fields like <input type="number"> with min and max attributes, and <input type="date"> with specific date ranges. Explain how these constraints prevent invalid data from being submitted. -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <form action="" method="">
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="65" required placeholder="Enter your age (18-65)"><br><br>
+
+        <label for="event-date">Event Date:</label>
+        <input type="date" id="event-date" name="event-date" min="2024-09-01" max="2024-12-31" required placeholder="Choose a date within the event period"><br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+ </body>
+ </html>   
