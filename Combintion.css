@@ -1,0 +1,23 @@
+
+/* child selector */
+/* div>section{
+    background-color: red;
+} */  
+
+/* descendent selector */
+/* div p{
+    background-color: red;
+} */
+
+
+/* adjecent sibling selector */
+/* div+section
+{
+    background-color: green;
+} */
+
+/* general sibling selector */
+div~section
+{
+    background-color: blueviolet;
+}
