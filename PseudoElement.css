@@ -1,0 +1,20 @@
+
+p::first-letter{
+    font-size: 50px;
+    color:red;
+}
+
+p::first-line{
+    font-size: 50px;
+    color:cadetblue
+}
+
+p::before{
+    content:"Something Something Something ";
+}
+p::after{
+    content:" Ending!!!!!";
+}
+li::marker{
+    content: "💕";
+}
