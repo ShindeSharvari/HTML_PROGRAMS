@@ -1,0 +1,11 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+div{
+    font-family: "Noto Color Emoji", sans-serif;
+    font-size: 3em;
+}
