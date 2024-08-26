@@ -1,0 +1,41 @@
+/* p{
+    font-size:xx-large;
+} */
+
+/* p{
+    font-weight:300;
+} */
+
+/* p{
+    font-style:oblique;
+} */
+
+p{
+    font-style: italic;
+    font-size: larger;
+    text-align:justify;
+    text-decoration:underline wavy goldenrod;
+    text-transform:capitalize;
+    
+}
+a{
+    color: black;
+    text-decoration:line-through;
+    text-decoration-color: red;
+    text-decoration-style:wavy; 
+
+    text-decoration:underline double red;
+}
+
+div{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: serif;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 2px goldenrod;
+    text-decoration:underline dashed palevioletred;
+}
+div::first-letter{
+    color:crimson;
+}
