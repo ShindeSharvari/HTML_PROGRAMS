@@ -1,0 +1,31 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;  
+    position: relative;
+}
+section{
+    width: 200px;
+    height: 200px;
+    background-color:yellow; 
+    position: relative;
+    bottom: 100px;
+    left:100px;
+}
+article{
+    width: 200px;
+    height: 200px;
+    background-color:purple;
+    position: relative; 
+    bottom: 200px;
+    left:200px;
+}
+
+aside{
+    width: 200px;
+    height: 200px;
+    background-color:brown;
+    position: relative; 
+    bottom: 300px;
+    left: 300px;
+}
