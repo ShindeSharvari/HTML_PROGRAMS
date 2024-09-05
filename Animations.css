@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    color: rgb(166, 255, 0);
+    font-size: 100px;
+}
+
+div:hover{
+    /* transform:translate(500px);  front direction */
+    /* transform:translateY(-500px);  */
+    /* transform: translate(-300px,300px); */
+    /* transform: translateY(500px); */
+    transform: translate(0px,500px);
+    transition-duration: 2s;
+}
