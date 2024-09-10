@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    align-items: end;
+    flex-direction: column;
+
+}
+div:hover{
+    transform: translate(-290px);
+    transition-duration: 3s;
+    transition-timing-function:linear;
+    /* Same speed all time */
+}
+section:hover{
+    transform: translate(-290px);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    /* Start fast and at end slow */
+}
+article:hover{
+    transform: translate(-290px);
+    transition-duration: 3s;
+    transition-timing-function:ease-in;
+    /* Slow and then fast */
+}
+main:hover{
+    transform: translate(-290px);
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+    /* Start fast end slow */
+    transition-delay: 2s;
+    /* it will start transition after that period */
+}
+footer:hover{
+    transform: translate(-290px);
+    transition-duration: 3s;
+    transition-timing-function:ease-in-out;
+    /* start slow between fast and end slow */
+}
