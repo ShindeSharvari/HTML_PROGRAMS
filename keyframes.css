@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: myAnimationName;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: linear;
+}
+
+@keyframes myAnimationName{
+    /*
+    from{
+
+        } 
+     */
+
+     to{
+        background-color: yellow;
+        border-radius: 50%;
+     }
+}
