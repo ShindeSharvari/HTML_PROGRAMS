@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    animation-name: heart;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    
+}
+.left, .right{
+  height: 400px;
+  width: 400px;
+  /* background-image: radial-gradient(rgb(250, 54, 54),rgb(228, 7, 7),red ); */
+  border-radius: 45% 45% 0 0;
+  transform: rotate(45deg);
+  background-color: red;
+
+}
+.left{
+    transform: rotate(-45deg);
+    margin-left: 170px;
+    animation-name: heart;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+}
+.right{
+    animation-name: heart;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+}
+@keyframes heart {
+    from{
+        transform: scale(0.2);
+    }
+    to{
+       transform: scale(1.5);
+    }
+    
+}
+
