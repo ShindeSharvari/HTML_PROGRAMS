@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    height: 100vh;   
+}
+.packman{
+    position: relative;
+    z-index: 1;
+}
+
+.top{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px 100px 0 0;
+    animation-name: top1;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.bottom{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border-radius: 0 0 100px 100px;
+    animation-name: bottom1;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+main{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-size: 50px;
+    position: absolute;
+    top:40%;
+}
+article{
+    font-size: 30px;
+    left: 100px;
+    top:70px;
+}
+.apple1{
+    animation-name: fruit;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+.apple2{
+    animation-name: fruit;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+}
+.apple3{
+    animation-name: fruit;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+.apple4{
+    animation-name: fruit;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1.5s;
+}
+@keyframes top1 {
+    from{}
+    to{
+        transform: rotate(-32deg)
+      }
+}
+@keyframes bottom1 {
+    from{}
+    to{
+        transform: rotate(32deg)
+      }
+}
+@keyframes fruit {
+    from{}
+    to{
+        transform: translate(-1200px)
+    }
+    
+}
