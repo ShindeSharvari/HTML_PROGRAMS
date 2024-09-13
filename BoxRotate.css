@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: div;
+    animation-iteration-count: infinite;
+    border: 10px solid black;
+}
+.parent{
+    width: 500px;
+    height: 500px;
+    animation-duration: 5s;
+}
+.child1{
+    width: 470px;
+    height: 470px;
+    animation-duration: 4.99s;
+}
+.child2{
+    width: 440px;
+    height: 440px;
+    animation-duration: 4.98s;
+}
+.child3{
+    width: 410px;
+    height: 410px;
+    animation-duration: 4.97s;
+}
+.child4{
+    width: 380px;
+    height: 380px;
+    animation-duration: 4.96s;
+}
+.child5{
+    width: 350px;
+    height: 350px;
+    animation-duration: 4.95s;
+}
+.child6{
+    width: 320px;
+    height: 320px;
+    animation-duration: 4.94s;
+}
+.child7{
+    width: 290px;
+    height: 290px;
+    animation-duration: 4.93s;
+}
+.child8{
+    width: 260px;
+    height: 260px;
+    animation-duration: 4.92s;
+}
+.child9{
+    width: 230px;
+    height: 230px;
+    animation-duration: 4.91s;
+}
+.child10{
+    width: 200px;
+    height: 200px;
+    animation-duration: 4.90s;
+}
+.child11{
+    width: 170px;
+    height: 170px;
+    animation-duration: 4.89s;
+}
+.child12{
+    width: 140px;
+    height: 140px;
+    animation-duration: 4.88s;
+}
+.child13{
+    width: 110px;
+    height: 110px;
+    animation-duration: 4.87s;
+}
+.child14{
+    width: 80px;
+    height: 80px;
+    animation-duration: 4.86s;
+}
+.child15{
+    width: 50px;
+    height: 50px;
+    animation-duration: 4.85s;
+}
+.child16{
+    width: 20px;
+    height: 20px;
+    animation-duration: 4.84s;
+}
+.child17{
+    width: 15px;
+    height: 15px;
+    animation-duration: 4.83s;
+}
+.child18{
+    width: 10px;
+    height: 10px;
+    animation-duration: 4.82s;
+}
+.child19{
+    width: 5px;
+    height: 5px;
+    animation-duration: 4.81s;
+}
+.child20{
+    width: 2px;
+    height: 2px;
+    animation-duration: 4.80s;
+}
+@keyframes div {
+    from{}
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
