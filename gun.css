@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/images/city2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#police{
+    position: absolute;
+    bottom: 50px;
+    width: 300px;
+}
+#criminal{
+    position: absolute;
+    bottom: 40px;
+    width: 250px;
+    left:800px;
+    animation-name: criminal;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 2s;
+}
+#bullet{
+    position: absolute;
+    width: 20px;
+    left:230px;
+    bottom:266px;
+    animation-name: bullet;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+@keyframes bullet{
+    100%{
+        transform: translate(650px);
+    }
+}
+@keyframes criminal{
+    from{}
+    to{
+        transform: rotate(100deg);
+    }
+}
