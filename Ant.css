@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    width: 200px;
+    height: 200px;
+
+  }
+  .sugarCube{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    margin-right:50px;
+    margin-bottom: 20px;
+  }
+  .ants {
+    position: absolute;
+    width: 30px; 
+    height: 30px;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  #ant1 {
+    top: 0;
+    left: 50px;
+    animation-name: moveAnt1;
+  }
+  
+  #ant2 {
+    top: 50px;
+    right: 0;
+    animation-name: moveAnt2;
+  }
+  
+  #ant3 {
+    bottom: 0;
+    left: 50px;
+    animation-name: moveAnt3;
+  }
+  
+  #ant4 {
+    bottom: 20px;
+    left: 10px;
+    animation-name: moveAnt4;
+  }
+  #ant5 {
+    top: 30px;
+    left: 50px;
+    animation-name: moveAnt5;
+  }
+  @keyframes moveAnt1 {
+    0% {
+      transform: rotate(0deg) translateX(100px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    }
+  }
+  
+  @keyframes moveAnt2 {
+    0% {
+      transform: rotate(120deg) translateX(100px) rotate(-120deg);
+    }
+    100% {
+      transform: rotate(480deg) translateX(100px) rotate(-480deg);
+    }
+  }
+  
+  @keyframes moveAnt3 {
+    0% {
+      transform: rotate(240deg) translateX(100px) rotate(-240deg);
+    }
+    100% {
+      transform: rotate(600deg) translateX(100px) rotate(-600deg);
+    }
+  }
+
+  @keyframes moveAnt4 {
+    0% {
+      transform: rotate(280deg) translateX(150px) rotate(-280deg);
+    }
+    100% {
+      transform: rotate(600deg) translateX(100px) rotate(-600deg);
+    }
+  }
+  @keyframes moveAnt5 {
+    0% {
+      transform: rotate(300deg) translateX(100px) rotate(-300deg);
+    }
+    100% {
+      transform: rotate(600deg) translateX(100px) rotate(-600deg);
+    }
+  }
+  
