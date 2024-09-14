@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    height: 100px;
+    background-color: black;
+    color: goldenrod;
+    align-items: center;
+}
+
+@media (max-width: 1300px){
+    .myDiv10{
+        display: none;
+    }
+}
+
+@media (max-width: 1250px){
+    .myDiv9{
+        display: none;
+    }
+}
+
+@media (max-width: 1200px){
+    .myDiv8{
+        display: none;
+    }
+}
+
+@media (max-width: 1150px){
+    .myDiv7{
+        display: none;
+    }
+}
+
+@media (max-width: 1100px){
+    .myDiv6{
+        display: none;
+    }
+}
+
+@media (max-width: 1050px){
+    .myDiv5{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px){
+    .myDiv4{
+        display: none;
+    }
+}
+
+@media (max-width: 950px){
+    .myDiv3{
+        display: none;
+    }
+}
+@media (max-width: 900px){
+    .myDiv2{
+        display: none;
+    }
+}
