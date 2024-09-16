@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medi2</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      main{
+        display: flex;
+      }
+      div{
+        width: 33.33vw;
+        height: 25vh;
+        background-color: red;
+        border: 2px solid;
+      }
+
+      @media (max-width:700px) {
+        main{
+            display: block;
+        }
+        div{
+            width: 100%;
+        } 
+      }
+    </style>
+</head>
+<body>
+    <main>
+        <div><h1>Heading no.1</h1></div>
+        <div><h1>Heading no.2</h1></div>
+        <div><h1>Heading no.3</h1></div>
+    </main>
+</body>
+</html>
