@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Time Color Change</title>
+    <style>
+        :root{
+            --mainColor:rgb(0, 115, 255);
+            /* here we change h1,section,p color at single time */
+        }
+        main{
+            display: flex;
+        }
+      div{
+        width: 33.33vw;
+        height: 25vh;
+        border: 2px solid;
+      }
+
+      .h1{
+        /* color: red; */
+        color:var(--mainColor)
+      }
+
+      section{
+        /* color: red; */
+        color: var(--mainColor);
+      }
+      p{
+        /* color: red; */
+        color: var(--mainColor);
+      }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <h1 class="h1">Heading no.1</h1>
+        </div>
+        <div>
+            <h1 class="h2">Heading no.2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sequi autem error necessitatibus! Nisi nihil at ut, magni corrupti omnis!</p>
+        </div>
+        <div><h1 class="h3">Heading no.3</h1>
+            <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis tenetur tempore, nesciunt nostrum cum tempora necessitatibus sunt eius. Eum.</section>
+        </div>
+    </main>
+</body>
+</html
